@@ -16,16 +16,16 @@ O treinamento é uma imersão completa que combina teoria e prática, focando na
 ## Estrutura do Site
 O site é composto por duas páginas principais:
 1. **Guia de Anexos (index.html)**
-   - Material complementar do treinamento;
-   - Conteúdo programático detalhado;
-   - Ferramentas essenciais de IA;
-   - Links úteis e recursos adicionais.
+   Material complementar do treinamento;
+   Conteúdo programático detalhado;
+   Ferramentas essenciais de IA;
+   Links úteis e recursos adicionais.
 
 2. **Convite (convite.html)**
-   - Informações sobre o evento;
-   - Detalhes do treinamento;
-   - Data, local e formato;
-   - Investimento e confirmação.
+Informações sobre o evento;
+   Detalhes do treinamento;
+   Data, local e formato;
+   Investimento e confirmação.
 
 ## Tecnologias Utilizadas
 - HTML5;
