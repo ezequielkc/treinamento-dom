@@ -3,6 +3,7 @@ Site na qual falo sobre o programa presencial e exclusivo voltado para empresár
 
 ## Sobre o Treinamento
 O treinamento épossui teoria e prática, focando na aplicação real de Inteligência Artificial no contexto empresarial. 
+
 O programa foi desenvolvido para capacitar profissionais a:
 
 - Compreender os fundamentos técnicos de IA;
