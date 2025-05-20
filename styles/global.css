@@ -34,6 +34,7 @@ body {
     background: linear-gradient(145deg, #121212, #1e1e1e);
     min-height: 100vh;
     padding: 0 var(--margin-desktop);
+    overflow-x: hidden;
 }
 
 /* Header and Navigation */

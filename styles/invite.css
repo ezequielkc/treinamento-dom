@@ -145,6 +145,23 @@
     box-shadow: var(--shadow);
 }
 
+.feature-card.highlight {
+    border: 2px solid var(--color-primary);
+    background: linear-gradient(135deg, rgba(255, 61, 87, 0.1), rgba(155, 81, 224, 0.1));
+}
+
+.feature-card.highlight h3 {
+    font-size: 1.5625rem;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+}
+
+.feature-card.highlight p {
+    font-size: 1.25rem;
+    color: var(--text-light);
+    font-weight: 500;
+}
+
 .feature-card:hover {
     transform: translateY(-5px);
     box-shadow: var(--card-hover-shadow);
