@@ -45,7 +45,7 @@
                 <div class="presentation-info">
                     <h3>Acesse e copie o arquivo</h3>
                     <p>Slides completos do Treinamento</p>
-                    <a href="#" class="download-link" onclick="openMaterialModal(); return false;">
+                    <a href="https://docs.google.com/presentation/d/19PjNiSYcaEdpao0PxH3q-kcGxL7KR4j0c_NY-Zjc6q8/edit?usp=sharing" class="download-link" target="_blank" rel="noopener noreferrer">
                         <i class="fas fa-download"></i>
                         Acessar Apresentação
                     </a>
@@ -215,37 +215,8 @@
         </div>
     </footer>
 
-    <!-- Modal de Material Indisponível -->
-    <div id="materialModal" class="modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <i class="fas fa-clock modal-icon"></i>
-            <h3>Material em Breve</h3>
-            <p>O material será disponibilizado após o treinamento.</p>
-        </div>
-    </div>
-
     <script>
-        // Função para abrir o modal
-        function openMaterialModal() {
-            document.getElementById('materialModal').style.display = 'flex';
-        }
-
-        // Função para fechar o modal
-        function closeMaterialModal() {
-            document.getElementById('materialModal').style.display = 'none';
-        }
-
-        // Fechar modal ao clicar no X
-        document.querySelector('.close-modal').onclick = closeMaterialModal;
-
-        // Fechar modal ao clicar fora dele
-        window.onclick = function(event) {
-            const modal = document.getElementById('materialModal');
-            if (event.target == modal) {
-                closeMaterialModal();
-            }
-        }
+        // Remove the modal-related JavaScript since it's no longer needed
     </script>
 </body>
 </html> 
