@@ -1,44 +1,47 @@
-# Site do Treinamento em Inteligência Artificial
-Site na qual falo sobre o programa presencial e exclusivo voltado para empresários e gestores que desejam compreender e aplicar IA em seus negócios.
+# Treinamento em Inteligência Artificial - DOM Erechim
+Site desenvolvido para o treinamento presencial em Inteligência Artificial, uma parceria exclusiva entre o DOM Erechim e a ChatMode.
 
-## Sobre o Treinamento
-O treinamento épossui teoria e prática, focando na aplicação real de Inteligência Artificial no contexto empresarial. 
+## Sobre o Projeto
+Projeto criado para divulgar treinamento presencial em Inteligência Artificial, voltado exclusivamente para alunos do DOM, Ensino Médio e Cursos Técnicos à Distância.
 
-O programa foi desenvolvido para capacitar profissionais a:
-
-- Compreender os fundamentos técnicos de IA;
-- Entender a arquitetura de agentes inteligentes;
-- Aprender sobre memória, contexto e raciocínio em IA;
-- Explorar diferentes tipos de IA, de chatbots a agentes avançados;
-- Desenvolver estratégias de adoção de IA nas empresas;
-- Mapear oportunidades, validar e escalar projetos de IA;
-- Praticar com ferramentas reais de IA;
-- Entender o papel do gestor de IA na empresa.
-
-## Estrutura do Site
-O site é composto por duas páginas principais:
-1. **Guia de Anexos (index.html)**
-   Material complementar do treinamento;
-   Conteúdo programático detalhado;
-   Ferramentas essenciais de IA;
-   Links úteis e recursos adicionais.
-
-2. **Convite (convite.html)**
-Informações sobre o evento;
-   Detalhes do treinamento;
-   Data, local e formato;
-   Investimento e confirmação.
+### Principais Funcionalidades
+- Design responsivo e moderno;
+- Seções informativas sobre o treinamento;
+- Apresentação das ferramentas de IA que serão utilizadas;
+- Perfil do palestrante;
+- Sistema de inscrição;
+- Menu mobile otimizado;
+- Animações suaves e interativas.
 
 ## Tecnologias Utilizadas
 - HTML5;
-- CSS3;
-- JavaScript;
+- CSS3 (com variáveis CSS);
+- JavaScript (Vanilla);
+- Font Awesome (ícones);
+- Google Fonts (Inter e Poppins).
 
-## Características do Site
-- Design moderno;
-- Interface intuitiva com boa navegação;
-- Layout responsivo para todos os dispositivos;
-- Seções bem organizadas e estruturadas;
-- Links para ferramentas e recursos externos.
+## Responsividade
+O site foi desenvolvido com foco em responsividade, adaptando-se a diferentes tamanhos de tela:
+
+- Desktop (1024px+): Layout completo com múltiplas colunas;
+- Tablet (768px-1023px): Layout adaptado com 2 colunas;
+- Mobile (480px-767px): Layout otimizado com 1 coluna;
+- Small Mobile (<480px): Layout simplificado para telas muito pequenas.
+
+## Design
+- Paleta de cores moderna e profissional;
+- Tipografia clara e legível;
+- Elementos visuais interativos;
+- Cards com efeitos de hover;
+- Badges e botões estilizados;
+- Gradientes e sombras sutis.
+
+## Licença
+
+Este projeto está sob a licença de uso exclusivo do DOM Erechim e ChatMode.
+
+## Autores
+- **Ezequiel Kowalski** - Desenvolvimento, conteúdo e Design
 
 © 2024 Ezequiel Kowalski. Todos os direitos reservados.
+# treinamento-dom
