@@ -1346,4 +1346,42 @@ a:hover {
     .requirement-item {
         padding: 1.25rem;
     }
+}
+
+.registration-highlight {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid var(--warning-color);
+    border-radius: var(--radius-md);
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    animation: pulse 2s infinite;
+}
+
+.registration-highlight i {
+    color: var(--warning-color);
+    font-size: 1.5rem;
+}
+
+.registration-highlight p {
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .registration-highlight {
+        padding: 0.875rem 1.25rem;
+    }
+    
+    .registration-highlight i {
+        font-size: 1.25rem;
+    }
+    
+    .registration-highlight p {
+        font-size: 1rem;
+    }
 } 
