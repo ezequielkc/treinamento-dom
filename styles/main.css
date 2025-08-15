@@ -937,6 +937,52 @@ a:hover {
     transform: scale(1.2);
 }
 
+/* Registration Info Section */
+.registration-info {
+    margin: var(--spacing-xl) 0;
+}
+
+.info-message {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    border: 1px solid var(--border-light);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.info-message i {
+    font-size: 1.5rem;
+    color: var(--warning-color);
+    margin-top: 0.25rem;
+    flex-shrink: 0;
+}
+
+.info-message h4 {
+    color: var(--warning-color);
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-sm);
+    font-weight: 600;
+}
+
+.info-message p {
+    color: var(--text-primary);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.contact-info {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: var(--spacing-lg);
+}
+
 @media (max-width: 768px) {
     .registration-contact .btn {
         width: 100%;
@@ -946,6 +992,16 @@ a:hover {
     
     .registration-contact .btn i {
         font-size: 1.3rem;
+    }
+
+    .info-message {
+        flex-direction: column;
+        text-align: center;
+        padding: var(--spacing-md);
+    }
+
+    .info-message i {
+        margin: 0 auto var(--spacing-sm);
     }
 }
 
