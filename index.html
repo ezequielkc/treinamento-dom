@@ -431,5 +431,17 @@ document.querySelector('.mobile-menu-toggle').addEventListener('change', functio
             observer.observe(stat);
         });
     </script>
+
+    <!-- ChatMode AI Widget -->
+    <script type="module">
+        import Chatmode from "https://cdn.jsdelivr.net/npm/@chatmode/embed/+esm";
+
+        Chatmode.initBubble({
+            "environmentId": "o13owkgqo78595377ae9crwd",
+            "theme": "automatic",
+            "position": "bottom-right",
+            "externalBranding": false
+        });
+    </script>
 </body>
 </html> 
